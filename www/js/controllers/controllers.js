@@ -125,7 +125,7 @@ oauthApp.controller('dashboardCtrl', function ($scope, $window, $state, $cookieS
             console.log(22222 );
             if(res) {
                 console.log(6);
-                        if (onstatus==4) {
+                        if (onstatus==3) {
                          $scope.showButton = false;                                                 
                         microgear.chat("server",id+"|"+name+"|"+index);                                                     
                        console.log('You are sure');
